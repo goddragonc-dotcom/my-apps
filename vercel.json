@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/claude-proxy", "dest": "/api/claude-proxy.js" },
+    { "src": "/fitsync/(.*)", "dest": "/fitsync/index.html" },
+    { "src": "/fitsync", "dest": "/fitsync/index.html" }
+  ]
+}
